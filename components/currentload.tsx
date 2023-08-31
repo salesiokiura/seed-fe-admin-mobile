@@ -26,9 +26,9 @@ export default function CurrentLoad({ data }: { data: Data }) {
       
       >
         <Text style={{ color: "#999999" }}>DEVICE</Text>
-        <Text>OWNER</Text>
-        <Text>CHARGE PERCENTAGE</Text>
-        <Text>Remaining charging time</Text>
+        <Text style={{ color: "#999999" }}>OWNER</Text>
+        <Text style={{ color: "#999999" }}>CHARGE PERCENTAGE</Text>
+        <Text style={{ color: "#999999" }}>Remaining charging time</Text>
       </View>
       <View>
       <Text>
