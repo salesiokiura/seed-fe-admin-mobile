@@ -1,15 +1,26 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Button } from "react-native";
 
 import { Text, View } from "../../components/Themed";
+import { NavigationContainer } from '@react-navigation/native';
 
 import { useRouter } from "expo-router";
+ 
 
-export default function HomeTabScreen() {
-  const router = useRouter();
+import React from "react";  
+ 
+export default function Home() {
+  //const navigate = useNavigate();
+ 
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Home</Text>
+       <a href="./currentloaddata">
+      <Button
+      title="current load page"
+       
+      />
+      </a> 
     </View>
   );
 }
